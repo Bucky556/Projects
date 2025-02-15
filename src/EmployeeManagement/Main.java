@@ -88,6 +88,7 @@ public class Main {
         } else {
             System.out.println("Git push");
             filteredEmployees.forEach(e -> report.append(e).append("\n"));
+            System.out.println("nodir push");
         }
     }
 }
