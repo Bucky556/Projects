@@ -86,6 +86,7 @@ public class Main {
         if (filteredEmployees.isEmpty()) {
             report.append("No employees found in this department.\n");
         } else {
+            System.out.println("Git push");
             filteredEmployees.forEach(e -> report.append(e).append("\n"));
         }
     }
